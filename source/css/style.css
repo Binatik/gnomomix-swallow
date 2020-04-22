@@ -9,9 +9,9 @@
 }
 
 body,
-html { 
-    font-family: 'Roboto Condensed', sans-serif; 
-    background-color: #CCC2C5; 
+html {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #CCC2C5;
 }
 
 .uppercase {
@@ -29,7 +29,7 @@ html {
     clip: rect(0 0 0 0)
 }
 
-.color-a {
+.highlighted {
     color: #fec600;
 }
 
