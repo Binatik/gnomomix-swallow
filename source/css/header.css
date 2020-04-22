@@ -3,10 +3,6 @@
     align-items: center;
     justify-content: center;
     background-color: #403D3E;
-}
-
-.header__body {
-    max-width: 1366px;
     padding: 25px 0 0 0;
 }
 
