@@ -1,4 +1,7 @@
 .preview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 40px 0 0 0;
     background-color: #403D3E;
 }
@@ -6,8 +9,9 @@
 .preview__body {
     position: relative;
     max-width: 900px;
-    height: auto;
-    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
 }
 
@@ -50,10 +54,11 @@
 }
 
 .information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background-color: #000;
-}
-
-.information__body {
     padding: 40px 0 0 0;
 }
 
@@ -98,7 +103,6 @@
         display: none;
     }
 
-
     .preview__link {
         font-size: 16px;
     }
@@ -115,5 +119,4 @@
         width: 100%;
         margin: 15px auto;
     }
-
 }

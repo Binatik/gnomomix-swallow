@@ -1,14 +1,8 @@
 .footer {
     display: flex;
-    align-items: flex-end;
-    background-color: #CCC2C5;
-}
-
-.footer__body {
-    width: 100%;
-    display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #CCC2C5;
     min-height: 100px;
 }
 
