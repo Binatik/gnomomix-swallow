@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    align-items: flex-end;
+    background-color: #CCC2C5;
+}
+
+.footer__body {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+}
+
+.copy {
+    padding: 15px;
+    font-size: 24px;
+    color: #e5523b;
+}
+
+@media (max-width: 768px) {
+    .copy {
+        font-size: 18px;
+    }
+}
