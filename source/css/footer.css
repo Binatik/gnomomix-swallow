@@ -1,11 +1,12 @@
 .footer {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: center;
     background-color: #CCC2C5;
 }
 
 .footer__body {
-    width: 100%;
+    max-width: 1366px;
     display: flex;
     align-items: center;
     justify-content: center;

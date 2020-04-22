@@ -1,4 +1,7 @@
 .preview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 40px 0 0 0;
     background-color: #403D3E;
 }
@@ -50,10 +53,14 @@
 }
 
 .information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #000;
 }
 
 .information__body {
+    max-width: 1366px;
     padding: 40px 0 0 0;
 }
 

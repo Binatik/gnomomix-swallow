@@ -97,11 +97,6 @@ html {
     background-color: #CCC2C5; 
 }
 
-.wrapper {
-    max-width: 1366px;
-    margin: 0 auto; 
-}
-
 .uppercase {
     text-transform: uppercase;
 }
@@ -137,21 +132,12 @@ html {
     transform: translate(-50%, -50%);
 }
 
-.version::after {
-    position: fixed;
-    top: 0;
-    left: 0; 
-    padding: 5px;
-    color: #CCC2C5;
-    content: 'v.1.0.3';
-}
-
 .link {
     padding: 15px 40px;
     color: #CCC2C5;
     text-decoration: none;
     letter-spacing: 1px;
-    background-color: #403D3E;
+    background-color: #605D5E;
     border-radius: 3px;
     transition: 0.5s;
 }
